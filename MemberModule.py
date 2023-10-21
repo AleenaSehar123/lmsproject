@@ -1,4 +1,3 @@
-# Code for 'MemberModule':
 from BookModule import Book
 
 
