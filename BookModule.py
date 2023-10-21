@@ -1,6 +1,6 @@
 # Code for 'BookModule':
 class Book:
-    def _init_(self, title, author, available=True):
+    def __init__(self, title, author, available=True):
         self.title = title
         self.author = author
         self.available = available
