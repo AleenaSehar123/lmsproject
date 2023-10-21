@@ -1,9 +1,8 @@
-# Code for 'MemberModule':
 from BookModule import Book
 
 
 class Member:
-    def _init_(self, member_id, name):
+    def __init__(self, member_id, name):
         self.member_id = member_id
         self.name = name
         self.checked_out_books = []
